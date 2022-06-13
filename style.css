@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(13, 211, 255), rgb(17, 129, 233));
 }
 
 button {
@@ -34,4 +34,9 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+#tasks .task{
+  display: flex;
+  justify-content: space-between;
 }
